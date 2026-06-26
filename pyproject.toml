@@ -1,0 +1,11 @@
+[project]
+name = "video-analyze-demo"
+version = "0.1.0"
+description = "MVP for detecting fall-like judo moments and exporting highlight clips."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.0",
+    "opencv-python>=4.13.0.92",
+    "ultralytics>=8.4.78",
+]
